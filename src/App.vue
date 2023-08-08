@@ -1,9 +1,11 @@
 <script setup>
 import { ref, computed } from 'vue'
 import EntryForm from './components/EntryForm.vue'
+import ViewData from './components/ViewData.vue'
 
 const routes = {
-  '/': EntryForm
+  '/': EntryForm,
+  '/data': ViewData,
 }
 
 const currentPath = ref(window.location.hash)
