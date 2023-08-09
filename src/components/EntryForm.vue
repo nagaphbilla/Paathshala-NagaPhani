@@ -67,6 +67,7 @@
             <button type="submit">Send Message</button>
         </form>
     </div>
+    <button><a href="/#/data">View Data</a></button>
 </template>
 
 <script>
@@ -180,4 +181,11 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
 </style>
